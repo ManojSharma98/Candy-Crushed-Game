@@ -18,11 +18,11 @@ const HomeScreen: FC = () => {
   const isFocused = useIsFocused();
   const translateY = useSharedValue(-200);
 
-  // useEffect(() => {
-  //   if (isFocused) {
-  //     playSound('bg', true);
-  //   }
-  // }, [isFocused]);
+  useEffect(() => {
+    if (isFocused) {
+      playSound('bg', true);
+    }
+  }, [isFocused]);
 
   useEffect(() => {
     if (isFocused) {
