@@ -1,13 +1,13 @@
-import { Dimensions } from "react-native";
+import {Dimensions} from 'react-native';
 
 export enum FONTS {
-  twinkle = "TwinkleStar-Regular",
-  Sedgwick = "SedgwickAveDisplay-Regular",
-  Lily = "LilyScriptOne-Regular",
+  twinkle = 'TwinkleStar-Regular',
+  Sedgwick = 'SedgwickAveDisplay-Regular',
+  Lily = 'LilyScriptOne-Regular',
 }
 
-export const screenHeight = Dimensions.get('screen').height
-export const screenWidth = Dimensions.get('screen').width
+export const screenHeight = Dimensions.get('screen').height;
+export const screenWidth = Dimensions.get('screen').width;
 
 export enum Colors {
   primary = '#007AFF',

@@ -387,6 +387,11 @@ PODS:
     - React-Core
   - react-native-safe-area-context (4.14.0):
     - React-Core
+  - react-native-video (5.2.1):
+    - React-Core
+    - react-native-video/Video (= 5.2.1)
+  - react-native-video/Video (5.2.1):
+    - React-Core
   - React-NativeModulesApple (0.72.1):
     - hermes-engine
     - React-callinvoker
@@ -529,7 +534,7 @@ PODS:
     - React-RCTText
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (3.34.1):
+  - RNScreens (3.35.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-RCTImage
@@ -591,6 +596,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-video (from `../node_modules/react-native-video`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -685,6 +691,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-mmkv"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-perflogger:
@@ -772,6 +780,7 @@ SPEC CHECKSUMS:
   React-logger: 70abe174614ac3f165e02ab8300fec50d2f9572d
   react-native-mmkv: 459c8a83d91bacf3f1eb56d6b2aecef265b8f28e
   react-native-safe-area-context: b13be9714d9771fbde0120bc519c963484de3a71
+  react-native-video: 2aad0d963bf3952bd9ebb2f53fab799338e8e202
   React-NativeModulesApple: 3f444b421d3c1e463414cb5aee385c4ffe6bae42
   React-perflogger: 3d501f34c8d4b10cb75f348e43591765788525ad
   React-RCTActionSheet: f5335572c979198c0c3daff67b07bd1ad8370c1d
@@ -791,7 +800,7 @@ SPEC CHECKSUMS:
   ReactCommon: f7d2978a6f8e8552a4908f067e65d4cfda686138
   RNGestureHandler: 69620f0c250b73a1e02e471256e5a147d51df69c
   RNReanimated: eadb0edc36d21c3743f92827475f5f8496634d8a
-  RNScreens: 0d7b066904334e8730839165f8598a286c1db8fa
+  RNScreens: a568946532d3cabcb7f46fdc0a8dbada3dd5de44
   RNSoundPlayer: 66e056f53b9e74d569b5a7c014bdb496c11d1268
   RNSVG: a9e095acf2e207f2ef491870523ed455636cf3b8
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
