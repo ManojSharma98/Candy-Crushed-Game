@@ -107,7 +107,7 @@ const GameScreen: FC = () => {
     if (collectedCandies >= totalCount) {
       completeLevel(item?.level?.id, collectedCandies);
       const nextLevel = Number(item?.level?.id) + 1;
-      console.log('nextLevel', nextLevel);
+      unlockLevel(nextLevel);
       Alert.alert('Congratulations!', 'Level Completed!', [
         {
           text: 'Next Level',
